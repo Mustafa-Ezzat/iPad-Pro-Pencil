@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4527FA1A1E60830400F66E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527FA191E60830400F66E68 /* AppDelegate.swift */; };
+		4527FA211E60830400F66E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4527FA201E60830400F66E68 /* Assets.xcassets */; };
+		4527FA241E60830400F66E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4527FA221E60830400F66E68 /* LaunchScreen.storyboard */; };
+		4527FA2F1E60830400F66E68 /* iPad_Pro_PencilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527FA2E1E60830400F66E68 /* iPad_Pro_PencilTests.swift */; };
+		4527FA3A1E60830400F66E68 /* iPad_Pro_PencilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527FA391E60830400F66E68 /* iPad_Pro_PencilUITests.swift */; };
+		4527FA491E60833D00F66E68 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527FA481E60833D00F66E68 /* Colors.swift */; };
+		4527FA4B1E60835D00F66E68 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527FA4A1E60835D00F66E68 /* CanvasView.swift */; };
+		4527FA4D1E60837900F66E68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527FA4C1E60837900F66E68 /* ViewController.swift */; };
+		4527FA4F1E6083A400F66E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4527FA4E1E6083A400F66E68 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4527FA2B1E60830400F66E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4527FA0E1E60830400F66E68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4527FA151E60830400F66E68;
+			remoteInfo = "iPad-Pro-Pencil";
+		};
+		4527FA361E60830400F66E68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4527FA0E1E60830400F66E68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4527FA151E60830400F66E68;
+			remoteInfo = "iPad-Pro-Pencil";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4527FA161E60830400F66E68 /* iPad-Pro-Pencil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad-Pro-Pencil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4527FA191E60830400F66E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4527FA201E60830400F66E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4527FA231E60830400F66E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4527FA251E60830400F66E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4527FA2A1E60830400F66E68 /* iPad-Pro-PencilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPad-Pro-PencilTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4527FA2E1E60830400F66E68 /* iPad_Pro_PencilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad_Pro_PencilTests.swift; sourceTree = "<group>"; };
+		4527FA301E60830400F66E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4527FA351E60830400F66E68 /* iPad-Pro-PencilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPad-Pro-PencilUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4527FA391E60830400F66E68 /* iPad_Pro_PencilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPad_Pro_PencilUITests.swift; sourceTree = "<group>"; };
+		4527FA3B1E60830400F66E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4527FA481E60833D00F66E68 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4527FA4A1E60835D00F66E68 /* CanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		4527FA4C1E60837900F66E68 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4527FA4E1E6083A400F66E68 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4527FA131E60830400F66E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4527FA271E60830400F66E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4527FA321E60830400F66E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4527FA0D1E60830400F66E68 = {
+			isa = PBXGroup;
+			children = (
+				4527FA181E60830400F66E68 /* iPad-Pro-Pencil */,
+				4527FA2D1E60830400F66E68 /* iPad-Pro-PencilTests */,
+				4527FA381E60830400F66E68 /* iPad-Pro-PencilUITests */,
+				4527FA171E60830400F66E68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4527FA171E60830400F66E68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4527FA161E60830400F66E68 /* iPad-Pro-Pencil.app */,
+				4527FA2A1E60830400F66E68 /* iPad-Pro-PencilTests.xctest */,
+				4527FA351E60830400F66E68 /* iPad-Pro-PencilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4527FA181E60830400F66E68 /* iPad-Pro-Pencil */ = {
+			isa = PBXGroup;
+			children = (
+				4527FA471E60833D00F66E68 /* AppConstant */,
+				4527FA4A1E60835D00F66E68 /* CanvasView.swift */,
+				4527FA191E60830400F66E68 /* AppDelegate.swift */,
+				4527FA4C1E60837900F66E68 /* ViewController.swift */,
+				4527FA4E1E6083A400F66E68 /* Main.storyboard */,
+				4527FA201E60830400F66E68 /* Assets.xcassets */,
+				4527FA221E60830400F66E68 /* LaunchScreen.storyboard */,
+				4527FA251E60830400F66E68 /* Info.plist */,
+			);
+			path = "iPad-Pro-Pencil";
+			sourceTree = "<group>";
+		};
+		4527FA2D1E60830400F66E68 /* iPad-Pro-PencilTests */ = {
+			isa = PBXGroup;
+			children = (
+				4527FA2E1E60830400F66E68 /* iPad_Pro_PencilTests.swift */,
+				4527FA301E60830400F66E68 /* Info.plist */,
+			);
+			path = "iPad-Pro-PencilTests";
+			sourceTree = "<group>";
+		};
+		4527FA381E60830400F66E68 /* iPad-Pro-PencilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4527FA391E60830400F66E68 /* iPad_Pro_PencilUITests.swift */,
+				4527FA3B1E60830400F66E68 /* Info.plist */,
+			);
+			path = "iPad-Pro-PencilUITests";
+			sourceTree = "<group>";
+		};
+		4527FA471E60833D00F66E68 /* AppConstant */ = {
+			isa = PBXGroup;
+			children = (
+				4527FA481E60833D00F66E68 /* Colors.swift */,
+			);
+			path = AppConstant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4527FA151E60830400F66E68 /* iPad-Pro-Pencil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4527FA3E1E60830400F66E68 /* Build configuration list for PBXNativeTarget "iPad-Pro-Pencil" */;
+			buildPhases = (
+				4527FA121E60830400F66E68 /* Sources */,
+				4527FA131E60830400F66E68 /* Frameworks */,
+				4527FA141E60830400F66E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPad-Pro-Pencil";
+			productName = "iPad-Pro-Pencil";
+			productReference = 4527FA161E60830400F66E68 /* iPad-Pro-Pencil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4527FA291E60830400F66E68 /* iPad-Pro-PencilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4527FA411E60830400F66E68 /* Build configuration list for PBXNativeTarget "iPad-Pro-PencilTests" */;
+			buildPhases = (
+				4527FA261E60830400F66E68 /* Sources */,
+				4527FA271E60830400F66E68 /* Frameworks */,
+				4527FA281E60830400F66E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4527FA2C1E60830400F66E68 /* PBXTargetDependency */,
+			);
+			name = "iPad-Pro-PencilTests";
+			productName = "iPad-Pro-PencilTests";
+			productReference = 4527FA2A1E60830400F66E68 /* iPad-Pro-PencilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4527FA341E60830400F66E68 /* iPad-Pro-PencilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4527FA441E60830400F66E68 /* Build configuration list for PBXNativeTarget "iPad-Pro-PencilUITests" */;
+			buildPhases = (
+				4527FA311E60830400F66E68 /* Sources */,
+				4527FA321E60830400F66E68 /* Frameworks */,
+				4527FA331E60830400F66E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4527FA371E60830400F66E68 /* PBXTargetDependency */,
+			);
+			name = "iPad-Pro-PencilUITests";
+			productName = "iPad-Pro-PencilUITests";
+			productReference = 4527FA351E60830400F66E68 /* iPad-Pro-PencilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4527FA0E1E60830400F66E68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = waqood;
+				TargetAttributes = {
+					4527FA151E60830400F66E68 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WYXC454UTF;
+						ProvisioningStyle = Automatic;
+					};
+					4527FA291E60830400F66E68 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WYXC454UTF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4527FA151E60830400F66E68;
+					};
+					4527FA341E60830400F66E68 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = WYXC454UTF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4527FA151E60830400F66E68;
+					};
+				};
+			};
+			buildConfigurationList = 4527FA111E60830400F66E68 /* Build configuration list for PBXProject "iPad-Pro-Pencil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4527FA0D1E60830400F66E68;
+			productRefGroup = 4527FA171E60830400F66E68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4527FA151E60830400F66E68 /* iPad-Pro-Pencil */,
+				4527FA291E60830400F66E68 /* iPad-Pro-PencilTests */,
+				4527FA341E60830400F66E68 /* iPad-Pro-PencilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4527FA141E60830400F66E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4527FA4F1E6083A400F66E68 /* Main.storyboard in Resources */,
+				4527FA241E60830400F66E68 /* LaunchScreen.storyboard in Resources */,
+				4527FA211E60830400F66E68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4527FA281E60830400F66E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4527FA331E60830400F66E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4527FA121E60830400F66E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4527FA491E60833D00F66E68 /* Colors.swift in Sources */,
+				4527FA4B1E60835D00F66E68 /* CanvasView.swift in Sources */,
+				4527FA4D1E60837900F66E68 /* ViewController.swift in Sources */,
+				4527FA1A1E60830400F66E68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4527FA261E60830400F66E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4527FA2F1E60830400F66E68 /* iPad_Pro_PencilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4527FA311E60830400F66E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4527FA3A1E60830400F66E68 /* iPad_Pro_PencilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4527FA2C1E60830400F66E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4527FA151E60830400F66E68 /* iPad-Pro-Pencil */;
+			targetProxy = 4527FA2B1E60830400F66E68 /* PBXContainerItemProxy */;
+		};
+		4527FA371E60830400F66E68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4527FA151E60830400F66E68 /* iPad-Pro-Pencil */;
+			targetProxy = 4527FA361E60830400F66E68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4527FA221E60830400F66E68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4527FA231E60830400F66E68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4527FA3C1E60830400F66E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4527FA3D1E60830400F66E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4527FA3F1E60830400F66E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WYXC454UTF;
+				INFOPLIST_FILE = "iPad-Pro-Pencil/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waqood.iPad-Pro-Pencil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4527FA401E60830400F66E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WYXC454UTF;
+				INFOPLIST_FILE = "iPad-Pro-Pencil/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waqood.iPad-Pro-Pencil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4527FA421E60830400F66E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WYXC454UTF;
+				INFOPLIST_FILE = "iPad-Pro-PencilTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waqood.iPad-Pro-PencilTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPad-Pro-Pencil.app/iPad-Pro-Pencil";
+			};
+			name = Debug;
+		};
+		4527FA431E60830400F66E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WYXC454UTF;
+				INFOPLIST_FILE = "iPad-Pro-PencilTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waqood.iPad-Pro-PencilTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPad-Pro-Pencil.app/iPad-Pro-Pencil";
+			};
+			name = Release;
+		};
+		4527FA451E60830400F66E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WYXC454UTF;
+				INFOPLIST_FILE = "iPad-Pro-PencilUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waqood.iPad-Pro-PencilUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iPad-Pro-Pencil";
+			};
+			name = Debug;
+		};
+		4527FA461E60830400F66E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = WYXC454UTF;
+				INFOPLIST_FILE = "iPad-Pro-PencilUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.waqood.iPad-Pro-PencilUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iPad-Pro-Pencil";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4527FA111E60830400F66E68 /* Build configuration list for PBXProject "iPad-Pro-Pencil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4527FA3C1E60830400F66E68 /* Debug */,
+				4527FA3D1E60830400F66E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4527FA3E1E60830400F66E68 /* Build configuration list for PBXNativeTarget "iPad-Pro-Pencil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4527FA3F1E60830400F66E68 /* Debug */,
+				4527FA401E60830400F66E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4527FA411E60830400F66E68 /* Build configuration list for PBXNativeTarget "iPad-Pro-PencilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4527FA421E60830400F66E68 /* Debug */,
+				4527FA431E60830400F66E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4527FA441E60830400F66E68 /* Build configuration list for PBXNativeTarget "iPad-Pro-PencilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4527FA451E60830400F66E68 /* Debug */,
+				4527FA461E60830400F66E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4527FA0E1E60830400F66E68 /* Project object */;
+}

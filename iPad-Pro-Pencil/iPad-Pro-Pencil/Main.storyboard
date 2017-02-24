@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad12_9" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Scribble" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zBF-1D-PJp" customClass="CanvasView" customModule="Scribble" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="960"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCl-Ih-D6h">
+                                <rect key="frame" x="0.0" y="960" width="683" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="rEK-7H-XxF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="draw"/>
+                                <connections>
+                                    <action selector="drawAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Pt-a4-fpy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBU-5J-WJL">
+                                <rect key="frame" x="683" y="960" width="683" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="sNx-GE-WZc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="erase"/>
+                                <connections>
+                                    <action selector="eraseAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L2J-7G-1v3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="WBU-5J-WJL" secondAttribute="trailing" id="0UG-E3-eGF"/>
+                            <constraint firstAttribute="trailing" secondItem="zBF-1D-PJp" secondAttribute="trailing" id="3Qo-By-zqN"/>
+                            <constraint firstItem="zBF-1D-PJp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="BTp-ve-nQE"/>
+                            <constraint firstItem="zBF-1D-PJp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Crm-Au-5WC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WCl-Ih-D6h" secondAttribute="bottom" id="DZy-Py-r9Q"/>
+                            <constraint firstItem="WCl-Ih-D6h" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="STO-Rv-jgD"/>
+                            <constraint firstItem="WBU-5J-WJL" firstAttribute="top" secondItem="zBF-1D-PJp" secondAttribute="bottom" id="XPJ-rD-bGq"/>
+                            <constraint firstItem="WBU-5J-WJL" firstAttribute="height" secondItem="WCl-Ih-D6h" secondAttribute="height" id="gDC-sR-5wD"/>
+                            <constraint firstItem="WBU-5J-WJL" firstAttribute="width" secondItem="WCl-Ih-D6h" secondAttribute="width" id="jrK-bm-TXg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WBU-5J-WJL" secondAttribute="bottom" id="ue1-RK-KAR"/>
+                            <constraint firstItem="WBU-5J-WJL" firstAttribute="leading" secondItem="WCl-Ih-D6h" secondAttribute="trailing" id="zaV-qy-OFR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="canvasView" destination="zBF-1D-PJp" id="BCN-O3-0CZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.39238653001462" y="329.296875"/>
+        </scene>
+    </scenes>
+</document>
